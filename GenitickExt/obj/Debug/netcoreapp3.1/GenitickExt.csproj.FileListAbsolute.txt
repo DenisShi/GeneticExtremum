@@ -1,0 +1,13 @@
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GenitickExt.exe
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GenitickExt.deps.json
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GenitickExt.runtimeconfig.json
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GenitickExt.runtimeconfig.dev.json
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GenitickExt.dll
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GenitickExt.pdb
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GenitickExt.csprojAssemblyReference.cache
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GenitickExt.AssemblyInfoInputs.cache
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GenitickExt.AssemblyInfo.cs
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GenitickExt.csproj.CoreCompileInputs.cache
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GenitickExt.dll
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GenitickExt.pdb
+C:\Users\Denis111\source\repos\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GenitickExt.genruntimeconfig.cache
