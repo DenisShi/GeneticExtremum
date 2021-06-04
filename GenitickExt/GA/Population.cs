@@ -30,6 +30,7 @@ namespace GeniticExt.GA
             Genotypes = genotypeGenerator.GenerateGenotypes(genotypesAmount, chromosomeLenght, problem.SearchArea.Min, problem.SearchArea.Max);
 
         }
+        public Population() { }
 
         public void NextGeneration()
         {

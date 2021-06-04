@@ -1,0 +1,13 @@
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GeniticExt.csprojAssemblyReference.cache
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GeniticExt.AssemblyInfoInputs.cache
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GeniticExt.AssemblyInfo.cs
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GeniticExt.csproj.CoreCompileInputs.cache
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GeniticExt.exe
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GeniticExt.deps.json
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GeniticExt.runtimeconfig.json
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GeniticExt.runtimeconfig.dev.json
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GeniticExt.dll
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\bin\Debug\netcoreapp3.1\GeniticExt.pdb
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GeniticExt.dll
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GeniticExt.pdb
+C:\Users\Denis111\Desktop\Uch\ИИ\Курсовая Инт\GenitickExt\GenitickExt\obj\Debug\netcoreapp3.1\GeniticExt.genruntimeconfig.cache

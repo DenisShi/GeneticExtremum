@@ -10,6 +10,7 @@ namespace GeniticExt.Problems
         public delegate double FunctionDelegate(double[] args);
         public FunctionDelegate Function;
         public SearchArea SearchArea;
+        public ExtremumDirection ExtrDirection;
     }
 
 }
