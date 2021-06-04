@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GenitickExt.GA
+namespace GeniticExt.GA
 {
     public class GenotypeGenerator
     {

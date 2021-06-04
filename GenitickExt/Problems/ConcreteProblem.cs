@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using GenitickExt.Problems;
 
-namespace GenitickExt.Problems.Example
+namespace GeniticExt.Problems.Example
 {
     public class ConcreteProblem : Problem
     {

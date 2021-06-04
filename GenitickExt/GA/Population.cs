@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using GenitickExt.Problems;
-using GenitickExt.GA.Rules;
+using GeniticExt.Problems;
+using GeniticExt.GA.Rules;
 
-namespace GenitickExt.GA
+namespace GeniticExt.GA
 {
     public class Population
     {
@@ -14,9 +14,10 @@ namespace GenitickExt.GA
         public List<Genotype> Genotypes; 
         public int GenotypeSize;
 
+        public FitnessRule FitnessRule;
+        public SelectionRule SelectionRule;
         public CrossoverRule CrossoverRule;
         public MutationRule MutationRule;
-        public SelectionRule SelectionRule;
 
         public Population(Problem problem, CrossoverRule crossoverRule, MutationRule mutationRule, SelectionRule selectionRule, int genotypesAmount, int chromosomeLenght)
         {
@@ -30,5 +31,12 @@ namespace GenitickExt.GA
 
         }
 
+        public void NextGeneration()
+        {
+            FitnessRule.GetFitness(this);
+            SelectionRule.Selection(this);
+            CrossoverRule.Crossover(this);
+            MutationRule.Mutation(this);
+        }
     }
 }

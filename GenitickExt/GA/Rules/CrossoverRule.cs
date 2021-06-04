@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using GenitickExt.GA;
+using GeniticExt.GA;
 
-namespace GenitickExt.GA.Rules
+namespace GeniticExt.GA.Rules
 {
     public abstract class CrossoverRule
     {

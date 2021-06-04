@@ -1,10 +1,10 @@
 ﻿using System;
-using GenitickExt.Problems.Example;
-using GenitickExt.Problems;
+using GeniticExt.Problems.Example;
+using GeniticExt.Problems;
 using System.Collections.Generic;
-using GenitickExt.GA;
+using GeniticExt.GA;
 
-namespace GenitickExt
+namespace GeniticExt
 {
     class Program
     {

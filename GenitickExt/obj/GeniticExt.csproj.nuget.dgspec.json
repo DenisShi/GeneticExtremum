@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Denis111\\source\\repos\\GenitickExt\\GenitickExt\\GeniticExt.csproj": {}
+    "C:\\Users\\Denis111\\Desktop\\Uch\\ИИ\\Курсовая Инт\\GenitickExt\\GenitickExt\\GeniticExt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Denis111\\source\\repos\\GenitickExt\\GenitickExt\\GeniticExt.csproj": {
+    "C:\\Users\\Denis111\\Desktop\\Uch\\ИИ\\Курсовая Инт\\GenitickExt\\GenitickExt\\GeniticExt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis111\\source\\repos\\GenitickExt\\GenitickExt\\GeniticExt.csproj",
+        "projectUniqueName": "C:\\Users\\Denis111\\Desktop\\Uch\\ИИ\\Курсовая Инт\\GenitickExt\\GenitickExt\\GeniticExt.csproj",
         "projectName": "GeniticExt",
-        "projectPath": "C:\\Users\\Denis111\\source\\repos\\GenitickExt\\GenitickExt\\GeniticExt.csproj",
+        "projectPath": "C:\\Users\\Denis111\\Desktop\\Uch\\ИИ\\Курсовая Инт\\GenitickExt\\GenitickExt\\GeniticExt.csproj",
         "packagesPath": "C:\\Users\\Denis111\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis111\\source\\repos\\GenitickExt\\GenitickExt\\obj\\",
+        "outputPath": "C:\\Users\\Denis111\\Desktop\\Uch\\ИИ\\Курсовая Инт\\GenitickExt\\GenitickExt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denis111\\AppData\\Roaming\\NuGet\\NuGet.Config",

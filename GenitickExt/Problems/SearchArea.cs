@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GenitickExt.Problems
+namespace GeniticExt.Problems
 {
     public class SearchArea
     {

@@ -5,8 +5,8 @@ using GeniticExt.GA;
 
 namespace GeniticExt.GA.Rules
 {
-    public abstract class MutationRule
+    public abstract class FitnessRule
     {
-        public abstract Population Mutation(Population population);
+        public abstract double GetFitness(Population population);
     }
 }
