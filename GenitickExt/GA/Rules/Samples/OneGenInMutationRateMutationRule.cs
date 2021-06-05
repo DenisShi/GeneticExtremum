@@ -9,11 +9,11 @@ namespace GeniticExt.GA.Rules.Samples
         public override void Mutation(Population population)
         {
             Random rnd = population.Rnd;
-            foreach(Genotype gen in population.Genotypes)
+            foreach(Chromosome gen in population.Genotypes)
             {
                 if (rnd.NextDouble() <= population.MutationRate)
                 {
-                    gen.Chromosome[rnd.Next(population.ChromosomeLenght)] = population.Problem.SearchArea.Min + rnd.NextDouble() * (population.Problem.SearchArea.Max - population.Problem.SearchArea.Min);
+                    gen.Genes[rnd.Next(population.ChromosomeLenght)] = population.Problem.SearchArea.Min + rnd.NextDouble() * (population.Problem.SearchArea.Max - population.Problem.SearchArea.Min);
                 }
             }
         }

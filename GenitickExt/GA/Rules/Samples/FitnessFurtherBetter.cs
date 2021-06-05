@@ -12,14 +12,14 @@ namespace GeniticExt.GA.Rules.Samples
             {
                 case Problems.ExtremumDirection.Maximum:
                 {
-                        foreach (Genotype gen in population.Genotypes)
-                            gen.Fitness = population.Problem.Function(gen.Chromosome);
+                        foreach (Chromosome gen in population.Genotypes)
+                            gen.Fitness = population.Problem.Function(gen.Genes);
                         break;
                 }
                 case Problems.ExtremumDirection.Minimum:
                 {
-                        foreach (Genotype gen in population.Genotypes)
-                            gen.Fitness = population.Problem.Function(gen.Chromosome) * -1;
+                        foreach (Chromosome gen in population.Genotypes)
+                            gen.Fitness = population.Problem.Function(gen.Genes) * -1;
                         break;
                 }
             }

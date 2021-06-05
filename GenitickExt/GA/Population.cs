@@ -12,9 +12,9 @@ namespace GeniticExt.GA
         public Problem Problem;
 
 
-        public List<Genotype> Genotypes;
-        public Genotype BestGenotype;
-        public List<Genotype> Parents;
+        public List<Chromosome> Genotypes;
+        public Chromosome BestGenotype;
+        public List<Chromosome> Parents;
         public int ChromosomeLenght;
 
         public FitnessRule FitnessRule;
@@ -68,7 +68,7 @@ namespace GeniticExt.GA
             MutationRule.Mutation(this);
             FitnessRule.GetFitness(this);
 
-            Genotype bestGen = GetBestGenotypeInGeneration();
+            Chromosome bestGen = GetBestGenotypeInGeneration();
             if(BestGenotype.Fitness < bestGen.Fitness)
             {
                 BestGenotype = bestGen.Copy();
@@ -81,7 +81,7 @@ namespace GeniticExt.GA
             }
         }
 
-        public Genotype GetBestGenotypeInGeneration()
+        public Chromosome GetBestGenotypeInGeneration()
         {
             double min = Genotypes.Max(gen => gen.Fitness);
             return Genotypes.FirstOrDefault(gen => gen.Fitness == min);

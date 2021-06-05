@@ -11,12 +11,9 @@ namespace GeniticExt
     {
         static void Main(string[] args)
         {
-            Problem cp = new ConcreteProblem();
-            Population population = new Population(cp, new FitnessFurtherBetter(), new FiftyCrossoverRule(), new OneGenInMutationRateMutationRule(), new TournamentSelectionRule(), 500, 2, 0.7, 100);
+            Population population = new Population(new ConcreteProblem(), new FitnessFurtherBetter(), new FiftyCrossoverRule(), new OneGenInMutationRateMutationRule(), new TournamentSelectionRule(), 500, 2, 0.7, 150);
             population.Go();
             Console.WriteLine(population);
         }
-
     }
-
 }

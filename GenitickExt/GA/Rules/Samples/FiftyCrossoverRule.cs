@@ -10,17 +10,17 @@ namespace GeniticExt.GA.Rules.Samples
         {
             Random rnd = population.Rnd;
 
-            List<Genotype> childs = new List<Genotype>();
+            List<Chromosome> childs = new List<Chromosome>();
             for (int i = 0; i < population.Parents.Count; i++)
             {
-                Genotype[] pair = new Genotype[2];
-                Genotype child = new Genotype();
-                child.Chromosome = new double[population.ChromosomeLenght];
+                Chromosome[] pair = new Chromosome[2];
+                Chromosome child = new Chromosome();
+                child.Genes = new double[population.ChromosomeLenght];
                 pair[0] = population.Parents[rnd.Next(population.Parents.Count)];
                 pair[1] = population.Parents[rnd.Next(population.Parents.Count)];
                 for (int j = 0; j < population.ChromosomeLenght; j++)
                 {
-                    child.Chromosome[j] = pair[rnd.Next(2)].Chromosome[j];
+                    child.Genes[j] = pair[rnd.Next(2)].Genes[j];
                 }
                 childs.Add(child);
             }

@@ -6,23 +6,23 @@ namespace GeniticExt.GA
 {
     public class GenotypeGenerator
     {
-        public virtual List<Genotype> GenerateGenotypes(int genotypesAmount, int chromosomeLenght, double min, double max)
+        public virtual List<Chromosome> GenerateGenotypes(int genotypesAmount, int chromosomeLenght, double min, double max)
         {
             Random random = new Random();
 
-            List<Genotype> genotypes = new List<Genotype>(genotypesAmount);
+            List<Chromosome> genotypes = new List<Chromosome>(genotypesAmount);
             while (genotypesAmount-- > 0)
                 genotypes.Add(GenerateGenotype(chromosomeLenght, min, max, random));
             return genotypes;
         }
-        public virtual Genotype GenerateGenotype(int chromosomeLenght, double min, double max, Random random)
+        public virtual Chromosome GenerateGenotype(int chromosomeLenght, double min, double max, Random random)
         {
-            Genotype gene = new Genotype()
+            Chromosome gene = new Chromosome()
             {
-                Chromosome = new double[chromosomeLenght]
+                Genes = new double[chromosomeLenght]
             };
             for(int i = chromosomeLenght; i > 0; i--)
-                gene.Chromosome[i - 1] = min + random.NextDouble() * (max - min);
+                gene.Genes[i - 1] = min + random.NextDouble() * (max - min);
             return gene;
         }
     }

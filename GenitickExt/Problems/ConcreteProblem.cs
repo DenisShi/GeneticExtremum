@@ -14,7 +14,7 @@ namespace GeniticExt.Problems.Example
         public ConcreteProblem()
         {
             Function = Func;
-            SearchArea = new SearchArea(-5.12, 5.12);
+            SearchArea = new SearchArea(-2.048, 2.048);
             ExtrDirection = ExtremumDirection.Minimum;
         }
     }

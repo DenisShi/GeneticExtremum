@@ -9,11 +9,11 @@ namespace GeniticExt.GA.Rules.Samples
         public override void Selection(Population population)
         {
             Random rnd = population.Rnd;
-            List<Genotype> parents = new List<Genotype>();
+            List<Chromosome> parents = new List<Chromosome>();
             for (int i = 0; i < population.Genotypes.Count; i++)
             {
-                Genotype g1 = population.Genotypes[rnd.Next(population.Genotypes.Count)];
-                Genotype g2 = population.Genotypes[rnd.Next(population.Genotypes.Count)];
+                Chromosome g1 = population.Genotypes[rnd.Next(population.Genotypes.Count)];
+                Chromosome g2 = population.Genotypes[rnd.Next(population.Genotypes.Count)];
                 if (g1.Fitness > g2.Fitness)
                     parents.Add(g1);
                 else
