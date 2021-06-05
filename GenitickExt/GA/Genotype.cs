@@ -18,5 +18,14 @@ namespace GeniticExt.GA
             outstr += ")";
             return outstr;
         }
+
+        public Genotype Copy()
+        {
+            return new Genotype()
+            {
+                Fitness = this.Fitness,
+                Chromosome = (double[])this.Chromosome.Clone()
+            };
+        }
     }
 }
