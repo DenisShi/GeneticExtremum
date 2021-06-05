@@ -8,6 +8,6 @@ namespace GeniticExt.GA.Rules
 {
     public abstract class SelectionRule
     {
-        public abstract List<Genotype> Selection(Population population);
+        public abstract void Selection(Population population);
     }
 }

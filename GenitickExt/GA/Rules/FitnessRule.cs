@@ -7,6 +7,6 @@ namespace GeniticExt.GA.Rules
 {
     public abstract class FitnessRule
     {
-        public abstract Population GetFitness(Population population);
+        public abstract void GetFitness(Population population);
     }
 }

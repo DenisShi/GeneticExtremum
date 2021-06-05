@@ -25,17 +25,22 @@ namespace GeniticExt
             GenotypeGenerator genotypeGenerator = new GenotypeGenerator();
             Genotypes = genotypeGenerator.GenerateGenotypes(10, 2, 5, -5);
 
-            FitnessFurtherBetter fbs = new FitnessFurtherBetter();
 
-            Genotypes[0].Chromosome = new double[] { 1, 1 };
             Population population = new Population();
             population.Problem = cp;
             population.Genotypes = Genotypes;
-            population.FitnessRule = fbs;
+            population.FitnessRule = new FitnessFurtherBetter(); ;
+            population.SelectionRule = new TournamentSelectionRule();
+            population.CrossoverRule = new FiftyCrossoverRule();
+            population.ChromosomeLenght = 2;
+            
             population.FitnessRule.GetFitness(population);
+            population.SelectionRule.Selection(population);
 
-            foreach (Genotype g in Genotypes)
-                Console.WriteLine(g);
+            Random rnd = new Random();
+
+            population.CrossoverRule.Crossover(population);
+            
         }
     }
 

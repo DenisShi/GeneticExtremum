@@ -6,7 +6,7 @@ namespace GeniticExt.GA.Rules.Samples
 {
     class FitnessFurtherBetter : FitnessRule
     {
-        public override Population GetFitness(Population population)
+        public override void GetFitness(Population population)
         {
             switch (population.Problem.ExtrDirection)
             {
@@ -23,7 +23,7 @@ namespace GeniticExt.GA.Rules.Samples
                         break;
                 }
             }
-            return population;
+
         }
     }
 }

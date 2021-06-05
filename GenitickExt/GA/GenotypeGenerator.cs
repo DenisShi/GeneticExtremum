@@ -8,14 +8,15 @@ namespace GeniticExt.GA
     {
         public virtual List<Genotype> GenerateGenotypes(int genotypesAmount, int chromosomeLenght, double min, double max)
         {
+            Random random = new Random();
+
             List<Genotype> genotypes = new List<Genotype>(genotypesAmount);
             while (genotypesAmount-- > 0)
-                genotypes.Add(GenerateGenotype(chromosomeLenght, max, min));
+                genotypes.Add(GenerateGenotype(chromosomeLenght, min, max, random));
             return genotypes;
         }
-        public virtual Genotype GenerateGenotype(int chromosomeLenght, double min, double max)
+        public virtual Genotype GenerateGenotype(int chromosomeLenght, double min, double max, Random random)
         {
-            Random random = new Random();
             Genotype gene = new Genotype()
             {
                 Chromosome = new double[chromosomeLenght]

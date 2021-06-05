@@ -7,6 +7,6 @@ namespace GeniticExt.GA.Rules
 {
     public abstract class CrossoverRule
     {
-        public abstract Population Crossover(Population population);
+        public abstract void Crossover(Population population);
     }
 }

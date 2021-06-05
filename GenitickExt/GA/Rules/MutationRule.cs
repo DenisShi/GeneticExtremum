@@ -7,6 +7,6 @@ namespace GeniticExt.GA.Rules
 {
     public abstract class MutationRule
     {
-        public abstract Population Mutation(Population population);
+        public abstract void Mutation(Population population);
     }
 }
